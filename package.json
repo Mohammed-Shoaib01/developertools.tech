@@ -13,6 +13,7 @@
     "lint:ci": "eslint --ignore-path .gitignore --ignore-path .eslintignore . --ext js --ext jsx --ext ts --ext tsx"
   },
   "dependencies": {
+    "@codemirror/lang-javascript": "^6.0.2",
     "@emotion/cache": "^11.10.3",
     "@emotion/react": "^11.10.4",
     "@emotion/server": "^11.10.0",
@@ -20,6 +21,8 @@
     "@fontsource/jetbrains-mono": "^4.5.10",
     "@mui/icons-material": "^5.10.3",
     "@mui/material": "^5.10.3",
+    "@uiw/codemirror-theme-github": "^4.12.3",
+    "@uiw/react-codemirror": "^4.12.3",
     "clsx": "^1.2.1",
     "js-base64": "^3.7.2",
     "next": "12.2.5",
