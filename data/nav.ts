@@ -1,3 +1,4 @@
+import ArticleIcon from '@mui/icons-material/Article';
 import AspectRatio from '@mui/icons-material/AspectRatio';
 import DataObject from '@mui/icons-material/DataObject';
 import Fingerprint from '@mui/icons-material/Fingerprint';
@@ -31,5 +32,10 @@ export default [
     title: 'JSON',
     href: '/json',
     Icon: DataObject,
+  },
+  {
+    title: 'Lorem Ipsum',
+    href: '/lorem-ipsum',
+    Icon: ArticleIcon,
   },
 ];
