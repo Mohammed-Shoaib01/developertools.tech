@@ -13,6 +13,7 @@
     "lint:ci": "eslint --ignore-path .gitignore --ignore-path .eslintignore . --ext js --ext jsx --ext ts --ext tsx"
   },
   "dependencies": {
+    "@codemirror/commands": "^6.1.0",
     "@codemirror/lang-javascript": "^6.0.2",
     "@codemirror/lang-json": "^6.0.0",
     "@emotion/cache": "^11.10.3",
